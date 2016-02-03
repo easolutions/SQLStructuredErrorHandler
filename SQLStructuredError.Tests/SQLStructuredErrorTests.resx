@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="checksumCondition1.Configuration" xml:space="preserve">
+    <value>Press to configure</value>
+  </metadata>
+  <data name="StructuredError_SplitStringTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for StructuredError.SplitString
+SELECT * FROM StructuredError.SplitString(null, null);
+SELECT * FROM StructuredError.SplitString('', null);
+SELECT * FROM StructuredError.SplitString(' ', null);
+SELECT * FROM StructuredError.SplitString(null, '');
+SELECT * FROM StructuredError.SplitString('', '');
+SELECT * FROM StructuredError.SplitString(' ', '');
+SELECT * FROM StructuredError.SplitString(null, ' ');
+SELECT * FROM StructuredError.SplitString('', ' ');
+SELECT * FROM StructuredError.SplitString(' ', ' ');
+SELECT * FROM StructuredError.SplitString(null, 'This is a test.');
+SELECT * FROM StructuredError.SplitString('', 'This is a test.');
+SELECT * FROM StructuredError.SplitString(' ', 'This is a test.');
+</value>
+  </data>
+  <metadata name="checksumCondition4.Configuration" xml:space="preserve">
+    <value>Press to configure</value>
+  </metadata>
+  <data name="StructuredError_ErrorConvertToStringTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for StructuredError.EndAuditLogEntry
+DECLARE @xmlError           xml
+            = '
+&lt;E N="1003" M="System is currently busy, please try again later." D="Database deadlock error occurred. Special message to developer." P="ErrorHandler"&gt;
+  &lt;T CalledBy="ErrorHandler" ThrownBy="" ThrownLine="14" DB="SQLStructuredError.Tests" SPID="52" /&gt;
+  &lt;T ErrorMessage="Special message to developer." someValue1="1" someValue2="0" someValue3="&amp;#xD;&amp;#xA;" /&gt;
+  &lt;E N="1002" M="Unable to perform this operation because there is another record with the same name at the same location." D="Special message to developer." P="ErrorHandler"&gt;
+    &lt;T CalledBy="ErrorHandler" ThrownBy="" ThrownLine="14" DB="SQLStructuredError.Tests" SPID="52" /&gt;
+    &lt;T ErrorMessage="Special message to developer." someValue1="1" someValue2="0" someValue3="&amp;#xD;&amp;#xA;" /&gt;
+  &lt;/E&gt;
+  &lt;E N="1000" M="Unknown error message &amp;quot;UnknownError&amp;quot; for procedure &amp;quot;#ProcedueName#&amp;quot; is not defined in the error table. " P="ErrorHandler"&gt;
+    &lt;T CalledBy="ErrorHandler" ThrownBy="" ThrownLine="14" DB="SQLStructuredError.Tests" SPID="52" /&gt;
+    &lt;T ErrorMessage="Special message to developer." someValue1="1" someValue2="0" someValue3="&amp;#xD;&amp;#xA;" /&gt;
+  &lt;/E&gt;
+  &lt;E N="1001" M="Unknown SQL Server error on server #ServerName# from database #DB#. Special message to developer." P="ErrorHandler"&gt;
+    &lt;T CalledBy="ErrorHandler" ThrownBy="" ThrownLine="14" DB="SQLStructuredError.Tests" SPID="52" /&gt;
+    &lt;T ErrorMessage="Special message to developer." someValue1="1" someValue2="0" someValue3="&amp;#xD;&amp;#xA;" /&gt;
+  &lt;/E&gt;
+  &lt;E N="1002" M="Unable to perform this operation because there is another record with the same name at the same location." D="Special message to developer." P="ErrorHandler"&gt;
+    &lt;T CalledBy="ErrorHandler" ThrownBy="" ThrownLine="14" DB="SQLStructuredError.Tests" SPID="52" /&gt;
+    &lt;T ErrorMessage="Special message to developer." someValue1="1" someValue2="0" someValue3="&amp;#xD;&amp;#xA;" /&gt;
+  &lt;/E&gt;
+  &lt;E N="1000" M="Unknown error message &amp;quot;UnknownError&amp;quot; for procedure &amp;quot;#ProcedueName#&amp;quot; is not defined in the error table. " P="ErrorHandler"&gt;
+    &lt;T CalledBy="ErrorHandler" ThrownBy="" ThrownLine="14" DB="SQLStructuredError.Tests" SPID="52" /&gt;
+    &lt;T ErrorMessage="Special message to developer." someValue1="1" someValue2="0" someValue3="&amp;#xD;&amp;#xA;" /&gt;
+  &lt;/E&gt;
+  &lt;E N="1001" M="Unknown SQL Server error on server #ServerName# from database #DB#. Special message to developer." P="ErrorHandler"&gt;
+    &lt;T CalledBy="ErrorHandler" ThrownBy="" ThrownLine="14" DB="SQLStructuredError.Tests" SPID="52" /&gt;
+    &lt;T ErrorMessage="Special message to developer." someValue1="1" someValue2="0" someValue3="&amp;#xD;&amp;#xA;" /&gt;
+  &lt;/E&gt;
+&lt;/E&gt;
+'
+;
+SELECT  resultLen = LEN(result), result = CONVERT(xml, result)
+FROM   (SELECT  result = StructuredError.ErrorConvertToString(@xmlError, 0)
+        UNION ALL
+        SELECT  result = StructuredError.ErrorConvertToString(@xmlError, 1)
+       ) AS X
+;
+</value>
+  </data>
+  <metadata name="checksumCondition4.Configuration" xml:space="preserve">
+    <value>Press to configure</value>
+  </metadata>
+  <metadata name="checksumCondition2.Configuration" xml:space="preserve">
+    <value>Press to configure</value>
+  </metadata>
+  <data name="StructuredError_ErrorLookupTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for StructuredError.ErrorLookup
+DECLARE @ProcID             int = OBJECT_ID('StructuredError.ErrorHandler')
+,       @xmlParams          XML
+            = (SELECT * FROM (SELECT intParam=2, stringParam='stringParam', dateTimeParam=CONVERT(datetime, '2016-01-14'), ErrorMessage='(Parameter error message text.)') AS T FOR XML AUTO)
+;
+SELECT result = CONVERT(xml, StructuredError.ErrorLookup(@ProcID, 'Deadlock', @xmlParams))
+UNION ALL
+SELECT result = CONVERT(xml, StructuredError.ErrorLookup('ErrorHandler', 'Deadlock', @xmlParams))
+;
+</value>
+  </data>
+  <metadata name="checksumCondition3.Configuration" xml:space="preserve">
+    <value>Press to configure</value>
+  </metadata>
+  <data name="StructuredError_BeginAuditLogProcEntryTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for StructuredError.BeginAuditLogProcEntry
+DECLARE @RC                 INT             = 0
+,       @AuditLogId         BIGINT          = NULL
+,       @CallerProcId       INT             = (SELECT object_id FROM sys.objects WHERE name = 'BeginAuditLogProcEntry')
+,       @ReadonlyProc       BIT             = 1
+,       @IsAuditReadLog     as varchar(255)
+            = ISNULL((SELECT TOP(1) CONVERT(varchar(255), 'true') FROM StructuredError.Parameters WHERE ParameterName = 'AuditReadLog' AND ParameterValue LIKE '[yt1]%'), 'false')
+,       @IsAuditWriteLog    as varchar(255)
+            = ISNULL((SELECT TOP(1) CONVERT(varchar(255), 'true') FROM StructuredError.Parameters WHERE ParameterName = 'AuditWriteLog' AND ParameterValue LIKE '[yt1]%'), 'false')
+,       @xmlParams          XML
+            = (SELECT * FROM (SELECT intParam=2, stringParam='stringParam', dateTimeParam=CONVERT(datetime, '2016-01-14')) AS params FOR XML AUTO)
+;
+UPDATE P SET ParameterValue = 'true' FROM StructuredError.Parameters P WHERE P.ParameterName = 'AuditReadLog';
+UPDATE P SET ParameterValue = 'true' FROM StructuredError.Parameters P WHERE P.ParameterName = 'AuditWriteLog';
+;
+EXECUTE @RC = StructuredError.BeginAuditLogProcEntry @AuditLogId OUTPUT, @CallerProcId, @ReadonlyProc, @xmlParams
+;
+SELECT  ProcedureName, InputData
+FROM    StructuredError.AuditLog        al
+WHERE   @RC = 0
+AND     AuditLogId = @AuditLogId
+AND     ProcedureName = 'BeginAuditLogProcEntry'
+AND     CONVERT(varchar(max), InputData) = CONVERT(varchar(max), @xmlParams)
+;
+UPDATE P SET ParameterValue = @IsAuditReadLog FROM StructuredError.Parameters P WHERE P.ParameterName = 'AuditReadLog';
+UPDATE P SET ParameterValue = @IsAuditWriteLog FROM StructuredError.Parameters P WHERE P.ParameterName = 'AuditWriteLog';
+;
+</value>
+  </data>
+  <metadata name="checksumCondition3.Configuration" xml:space="preserve">
+    <value>Press to configure</value>
+  </metadata>
+  <data name="StructuredError_EndAuditLogEntryTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for StructuredError.EndAuditLogEntry
+DECLARE @RC                 INT             = 0
+,       @AuditLogId         BIGINT          = NULL
+,       @CallerProcId       INT             = (SELECT object_id FROM sys.objects WHERE name = 'BeginAuditLogProcEntry')
+,       @ReadonlyProc       BIT             = 1
+,       @IsAuditReadLog     as varchar(255)
+            = ISNULL((SELECT TOP(1) CONVERT(varchar(255), 'true') FROM StructuredError.Parameters WHERE ParameterName = 'AuditReadLog' AND ParameterValue LIKE '[yt1]%'), 'false')
+,       @IsAuditWriteLog    as varchar(255)
+            = ISNULL((SELECT TOP(1) CONVERT(varchar(255), 'true') FROM StructuredError.Parameters WHERE ParameterName = 'AuditWriteLog' AND ParameterValue LIKE '[yt1]%'), 'false')
+,       @xmlParams          XML
+            = (SELECT * FROM (SELECT intParam=2, stringParam='stringParam', dateTimeParam=CONVERT(datetime, '2016-01-14')) AS params FOR XML AUTO)
+;
+UPDATE P SET ParameterValue = 'true' FROM StructuredError.Parameters P WHERE P.ParameterName = 'AuditReadLog';
+UPDATE P SET ParameterValue = 'true' FROM StructuredError.Parameters P WHERE P.ParameterName = 'AuditWriteLog';
+;
+EXECUTE @RC = StructuredError.BeginAuditLogProcEntry @AuditLogId OUTPUT, @CallerProcId, @ReadonlyProc, @xmlParams
+;
+SELECT  *
+FROM    StructuredError.AuditLog        al
+WHERE   @RC = 0
+AND     AuditLogId = @AuditLogId
+AND     ProcedureName = 'BeginAuditLogProcEntry'
+AND     CONVERT(varchar(max), InputData) = CONVERT(varchar(max), @xmlParams)
+AND     AuditStartTime IS NOT NULL
+AND     AuditEndTime IS NULL
+;
+WAITFOR DELAY '00:00:01'
+;
+EXECUTE @RC = StructuredError.EndAuditLogEntry @AuditLogId
+;
+SELECT  *
+FROM    StructuredError.AuditLog        al
+WHERE   @RC = 0
+AND     AuditLogId = @AuditLogId
+AND     ProcedureName = 'BeginAuditLogProcEntry'
+AND     CONVERT(varchar(max), InputData) = CONVERT(varchar(max), @xmlParams)
+AND     AuditStartTime IS NOT NULL
+AND     AuditEndTime IS NOT NULL
+AND     AuditStartTime &lt; AuditEndTime
+;
+UPDATE P SET ParameterValue = @IsAuditReadLog FROM StructuredError.Parameters P WHERE P.ParameterName = 'AuditReadLog';
+UPDATE P SET ParameterValue = @IsAuditWriteLog FROM StructuredError.Parameters P WHERE P.ParameterName = 'AuditWriteLog';
+;
+</value>
+  </data>
+  <data name="StructuredError_ErrorHandlerTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for StructuredError.ErrorHandler
+BEGIN TRY
+    BEGIN TRY
+        DECLARE @True                           bit                 = 1
+        ,       @False                          bit                 = 0
+        ,       @CrLf                           varchar(2)          = CHAR(13) + CHAR(10)
+        ,       @ProcedureName                  varchar(255)        = 'ErrorHandler'
+        ,       @CallerProcId                   int
+                    = (SELECT object_id FROM sys.objects WHERE name = 'ErrorHandler')
+        ;
+        DECLARE @ErrorMessage           varchar(max)
+        ;
+        SET @ErrorMessage = StructuredError.ErrorLookup(@ProcedureName, 'Deadlock', (SELECT * FROM (SELECT ErrorMessage='Special message to developer.', someValue1=@True, someValue2=@False, someValue3=@CrLf) AS T FOR XML AUTO))
+        RAISERROR(@ErrorMessage, 16, 10);
+    END TRY
+    BEGIN CATCH
+        EXEC StructuredError.ErrorHandler @CallerProcId
+    END CATCH
+END TRY
+BEGIN CATCH
+    SELECT ErrorNumber=ERROR_NUMBER(), ErrorMessage=ERROR_MESSAGE(), ErrorProcedure=ERROR_PROCEDURE(), ErrorLine=ERROR_LINE(), ErrorSeverity=ERROR_SEVERITY(), ErrorState=ERROR_STATE()
+    ;
+END CATCH
+</value>
+  </data>
+  <metadata name="checksumCondition6.Configuration" xml:space="preserve">
+    <value>Press to configure</value>
+  </metadata>
+  <data name="StructuredError_MaintenanceUpdatesTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for StructuredError.MaintenanceUpdates
+DECLARE @RC                             int                 = 0
+,       @PurgeUtcDatetime               datetime            = DATEADD(week, -1, CONVERT(datetime, CONVERT(date, GETUTCDATE())))
+;
+EXECUTE @RC = StructuredError.MaintenanceUpdates ;
+;
+SELECT  *
+FROM    StructuredError.AuditLog        al
+WHERE   al.AuditStartTime &lt; @PurgeUtcDatetime
+;
+SELECT RC = @RC
+;
+</value>
+  </data>
+  <metadata name="checksumCondition6.Configuration" xml:space="preserve">
+    <value>Press to configure</value>
+  </metadata>
+  <metadata name="checksumCondition5.Configuration" xml:space="preserve">
+    <value>Press to configure</value>
+  </metadata>
+  <data name="StructuredError_ErrorConvertToXMLTest_TestAction.SqlScript" xml:space="preserve">
+    <value>-- database unit test for StructuredError.ErrorConvertToXML
+DECLARE @CallerProcId           int
+            = (SELECT object_id FROM sys.objects WHERE name = 'ErrorConvertToXML')
+,       @ErrorMessage           varchar(max)
+            = 'Error message text.'
+,       @xmlAfter               xml
+            = (SELECT * FROM (SELECT intParam=2, stringParam='stringParam', dateTimeParam=CONVERT(datetime, '2016-01-14')) AS T FOR XML AUTO)
+,       @ErrorXML               xml
+;
+SET @ErrorXML = StructuredError.ErrorLookup(N'ErrorHandler', N'UnknownError', (SELECT * FROM (SELECT ChildMessage=@ErrorMessage, ProcedueName='ErrorConvertToXML', PROCID=@CallerProcId) AS T FOR XML AUTO)) ;
+;
+SELECT  *, errorXML = @ErrorXML
+FROM   (SELECT  result = StructuredError.ErrorConvertToXML(@ErrorMessage, (SELECT * FROM (SELECT CalledBy='ErrorConvertToXML', Line=99, DB='TestDB', SPID=1234) AS T FOR XML AUTO), @xmlAfter)
+        UNION ALL
+        SELECT  result = StructuredError.ErrorConvertToXML(CONVERT(varchar(max), @ErrorXML), (SELECT * FROM (SELECT CalledBy='ErrorConvertToXML', Line=99, DB='TestDB', SPID=1234) AS T FOR XML AUTO), @xmlAfter)
+       ) AS X
+;
+</value>
+  </data>
+  <metadata name="checksumCondition5.Configuration" xml:space="preserve">
+    <value>Press to configure</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
